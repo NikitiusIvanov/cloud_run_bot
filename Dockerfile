@@ -15,7 +15,7 @@ COPY . /app
 EXPOSE 8080
 
 # Set the command to run the application
-CMD ["python", "main.py"]
+CMD ["python", "bot.py"]
 
 # Environment variables (optional)
 ENV BOT_TOKEN
